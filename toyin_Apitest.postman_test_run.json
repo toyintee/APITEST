@@ -1,0 +1,233 @@
+{
+	"id": "38a9d483-dd0d-47bb-b2ff-34cbcd8cbfd0",
+	"name": "toyin_oyetola_Apitest",
+	"timestamp": "2020-11-24T18:50:45.442Z",
+	"collection_id": "137f96bd-cb11-4c55-acc6-2bf9ada6011b",
+	"folder_id": 0,
+	"environment_id": "8b06b28f-69f6-4e1b-a880-b942daabd835",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "59cb3abf-15fa-482b-b6ae-5e683166b25b",
+			"name": "single users",
+			"url": "https://reqres.in/api/users/2",
+			"time": 8930,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Via is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Via is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8930
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Via is present": true
+				}
+			]
+		},
+		{
+			"id": "0572d574-3855-47d6-ab90-24532164028e",
+			"name": "list users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 1655,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Via is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Via is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1655
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Via is present": true
+				}
+			]
+		},
+		{
+			"id": "164fd1fd-db79-4744-b38b-bfc11eaf7075",
+			"name": "create user",
+			"url": "https://reqres.in/api/users",
+			"time": 3441,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true,
+				"Via is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Via is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3441
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true,
+					"Via is present": true
+				}
+			]
+		},
+		{
+			"id": "a9c83642-a287-46e9-b087-ba8b64d84a93",
+			"name": "login",
+			"url": "https://reqres.in/api/login",
+			"time": 3963,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true,
+				"Via is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Via is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3963
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true,
+					"Via is present": true
+				}
+			]
+		},
+		{
+			"id": "1be00537-f78a-427e-a4ad-378772a41733",
+			"name": "delete user",
+			"url": "https://reqres.in/api/users",
+			"time": 3635,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true,
+				"Via is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Via is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3635
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true,
+					"Via is present": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 21624,
+	"collection": {
+		"requests": [
+			{
+				"id": "59cb3abf-15fa-482b-b6ae-5e683166b25b",
+				"method": "GET"
+			},
+			{
+				"id": "0572d574-3855-47d6-ab90-24532164028e",
+				"method": "GET"
+			},
+			{
+				"id": "164fd1fd-db79-4744-b38b-bfc11eaf7075",
+				"method": "POST"
+			},
+			{
+				"id": "a9c83642-a287-46e9-b087-ba8b64d84a93",
+				"method": "POST"
+			},
+			{
+				"id": "1be00537-f78a-427e-a4ad-378772a41733",
+				"method": "DELETE"
+			}
+		]
+	}
+}
